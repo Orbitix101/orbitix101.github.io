@@ -1,0 +1,134 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #F2F2F2;
+    color: #000000;
+    font-size: 17px;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #F5F5F7;
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    box-sizing: content-box;
+    color: #0000008F;
+    direction: ltr;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.0005px;
+    text-align: center;
+    min-width: 1024px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    text-size-adjust: 100%;
+}
+
+main {
+    color: #333333;
+    font-size: 17px;
+    margin-top: 92px;
+    margin-bottom: 140px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1 {
+    color: #111;
+    font-size: 48px;
+    width: 502px;
+    margin: 0 auto 54px;
+    font-weight: 600;
+}
+
+.globalnav {
+    --r-globalnav-flyout-close-delay: .12s;
+    --r-globalnav-flyout-link-opacity-duration: .5s;
+    --r-globalnav-flyout-spacing: 88px;
+    --r-globalnav-next-flyout-height: 0px;
+    --r-globalnav-previous-flyout-height: 0px;
+    --r-globalnav-height: 44px;
+    --r-globalnav-color: rgba(0, 0, 0, .8);
+    --r-globalnav-color-secondary: #333336;
+    --r-globalnav-color-hover: #000000;
+    --r-globalnav-font-size: 17px;
+    --globalnav-background: none;
+    --globalnav-backdrop-filter: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    display: block;
+    margin: 0;
+    width: 100%;
+    min-width: 320px;
+    height: 48px;
+    max-height: 44px;
+    font-size: 17px;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-backdrop-filter: var(--globalnav-backdrop-filter);
+    backdrop-filter: var(--globalnav-backdrop-filter);
+}
+
+.globalnav-item {
+    box-sizing: border-box;
+    height: 44px;
+}
+
+.globalnav-link {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--r-globalnav-color);
+    position: relative;
+    z-index: 1;
+    padding: 0 calc(8px / var(--r-globalnav-text-zoom-scale, 1));
+    height: 44px;
+    background: no-repeat;
+    text-decoration: none;
+    white-space: nowrap;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    transition: color .32s cubic-bezier(.4,0,.6,1);
+}
+
+.globalnav-link-text {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+}
+
+.footer-legal-copyright {
+    margin: 5px 30px 0px 0px;
+}
+
+li::marker {
+    content: none;
+    font-size: 1.2em;
+}
