@@ -47,7 +47,7 @@ footer {
     text-size-adjust: 100%;
 }
 
-ul { /*设置导航栏的框框*/
+ul {
     list-style-type: none;
     margin: 0;
     padding: 10px;
@@ -55,8 +55,8 @@ ul { /*设置导航栏的框框*/
 
 li {
     font-weight: 550;
-    list-style-type: none; /* 去掉li前的点 */
-    float: left; /*将li设置成做浮动，变为联动*/
+    list-style-type: none;
+    float: left;
 }
 
 li a {
