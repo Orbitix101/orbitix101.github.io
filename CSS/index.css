@@ -52,7 +52,7 @@ ul { /*设置导航栏的框框*/
     margin: 5px auto; /*框框整体的位置，30px是指离网页的顶部和下部的距离，auto控制的是左右距离为自动调节*/
     width: 100px; /*框框的宽度*/
     height: 150px; /*框框的长度*/
-    padding: 0px; /*将框框的padding设置为零，不然会导致框框里的内容与框边缘有间隔*/
+    padding: 0%; /*将框框的padding设置为零，不然会导致框框里的内容与框边缘有间隔*/
 }
 
 li {
@@ -76,4 +76,8 @@ li {
 
 a:hover {
     background-color: #2f6f4f;
+}
+
+.content {
+    margin-left: 15%;
 }
